@@ -149,5 +149,10 @@
   <project path="system/netd" name="system_netd" remote="pixel-plus" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
+  
+  <project path="build/soong" name="android_build_soong" remote="havoc">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 
 </manifest>
