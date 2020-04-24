@@ -82,6 +82,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="android_build_soong" remote="havoc">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
