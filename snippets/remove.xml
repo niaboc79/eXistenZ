@@ -157,7 +157,7 @@
   <!-- Builts -->
   
   
-  <remove-project name="platform/build/blueprint" />
+  
   <remove-project name="platform/build/soong" />
 
   <!-- System repos -->
