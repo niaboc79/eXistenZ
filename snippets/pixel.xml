@@ -63,9 +63,9 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="havoc" />
-  <project path="frameworks/base" name="frameworks_base" remote="havoc" />
-  <project path="frameworks/native" name="frameworks_native" remote="havoc" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
@@ -142,7 +142,7 @@
   <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="pixel" />
-  <project path="system/core" name="system_core" remote="havoc" />
+  <project path="system/core" name="android_system_core" remote="havoc" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="pixel" />
   <project path="system/keymaster" name="system_keymaster" remote="pixel" />
   <project path="system/netd" name="system_netd" remote="pixel-plus" />
