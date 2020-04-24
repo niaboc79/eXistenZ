@@ -65,14 +65,14 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="havoc" />
   <project path="frameworks/base" name="android_frameworks_base" remote="havoc" />
-  <project path="frameworks/native" name="frameworks_native" remote="pixel-plus" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="havoc" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
-  <project path="bionic" name="bionic" remote="pixel" />
+  <project path="bionic" name="android_bionic" remote="havoc" />
   <project path="build/make" name="android_build" remote="havoc">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -87,7 +87,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="havoc" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="havoc" />
   <project path="development" name="development" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel-plus" />
@@ -137,7 +137,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="pixel" />
   <project path="external/libhevc" name="external_libhevc" remote="pixel" />
   <project path="external/skia" name="external_skia" remote="pixel" />
-  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="havoc" />
 
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
