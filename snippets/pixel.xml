@@ -25,6 +25,10 @@
   <remote name="havoc"
           fetch="https://github.com/Havoc-OS"
           revision="ten" />
+  
+  <remote name="havoc-gapps"
+          fetch="https://gitlab.com/Havoc-GApps"
+          revision="ten" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
